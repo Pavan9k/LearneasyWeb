@@ -1,0 +1,15 @@
+.con{
+    border: 2px solid rgb(254, 249, 249);
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin: 2px;
+}
+.col{
+    height: 300px;
+    text-decoration: none;
+    background-color: rgb(209, 221, 245);
+
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 1%;
+}

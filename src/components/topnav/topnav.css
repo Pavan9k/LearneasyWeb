@@ -1,0 +1,22 @@
+.tonav {
+    background-color: rgb(182, 201, 88);
+    height: 50px;
+    /* border: 2px solid black; */
+    margin-top: 2%;
+    /* display: table*/
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 5px;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.side-nav{
+    margin-left: 1%;
+}
+.login{
+    margin: 1%;
+}
