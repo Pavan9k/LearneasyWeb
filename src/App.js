@@ -11,49 +11,23 @@ import Reactroutes from './components/ReactRouter/routes';
 import NestedRoute from './components/ReactRouter/home1';
 import SideNav from './components/sidenav/sidenav';
 import LandingComponent from './components/LandingPage/landingPage';
+import { useEffect} from 'react';
+
 
 
 function App() {
 
-  // const [data,setData] = useState();
-
-  // const [count,setCount] = useState(0)
-
-
-
-
-  // if(data){
-  //   return <div>Hi This is returned</div>
-  // }
-
-
-
+  
+ 
+  
   return (
     <div className="App">
 
       <Routes>
-
         <Route index element={<LandingComponent />} />
-        {/* <Route path='/home' element={<Home />}>
-          <Route path='nestedroute' element={<NestedRoute />} />
-          <Route path='nestedroute1' element={<div>nestedroute1</div>} />
-        </Route> */}
-
-        <Route
-          path="/home"
-          element={<Home />}
-        >
-          <Route
-            path="search"
-            element={<NestedRoute />}
-          />
-       
-        </Route>
-
-
+        <Route path='/home' element={<Home />} />
+        <Route path='home/nestedroute' element={<NestedRoute />} />
         <Route path='*' element={<div> Not found</div>} />
-
-
       </Routes>
 
 

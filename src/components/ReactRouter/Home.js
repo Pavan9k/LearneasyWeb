@@ -1,3 +1,5 @@
+import { Link, NavLink } from "react-router-dom"
+
 function Home() {
    
 
@@ -5,7 +7,8 @@ function Home() {
 
     return(
         <>
-        Home</>
+        Home
+     </>
     )
 }
 export default Home

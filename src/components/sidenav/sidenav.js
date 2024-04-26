@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import './sidenav.css';
@@ -6,12 +6,9 @@ import options from './options.png';
 
 function SideNav() {
     const [show, setShow] = useState(false);
-    const [time,setTime]=useState('')
-    console.log(window.location)
-
+ 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
 
     
 
